@@ -58,11 +58,10 @@ a {
 .logo-wrap {
   display: flex;
   align-items: center;
-  gap: 0.5rem;
 }
 
 .logo-img {
-  height: 70px;
+  height: 120px;
 }
 
 .logo-text {
