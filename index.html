@@ -1,69 +1,285 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Logistics Services</title>
-  <style>
-    body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
-    header { background: #0a3d62; color: white; padding: 20px; text-align: center; }
-    nav { background: #3c6382; padding: 10px; text-align:center; }
-    nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
-    .hero { background: #82ccdd; padding: 60px 20px; text-align: center; }
-    .section { padding: 40px 20px; max-width: 900px; margin: auto; }
-    .services { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; }
-    .card { padding: 20px; border: 1px solid #ccc; border-radius: 10px; background: #f7f7f7; }
-    footer { background: #0a3d62; color: white; padding: 20px; text-align: center; margin-top: 40px; }
-  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flowx Solutions | PAN India Logistics & Transportation</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <h1>Logistics Services</h1>
-    <p>Count on Us</p>
+  <header class="site-header">
+    <div class="container nav-bar">
+      <div class="logo-wrap">
+        <img src="assets/logo-flowx.svg" alt="Flowx Solutions logo" class="logo-img">
+        <span class="logo-text">Flowx Solutions</span>
+      </div>
+      <nav class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#industries">Industries</a>
+        <a href="#why-us">Why Flowx</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
   </header>
 
-  <nav>
-    <a href="#services">Services</a>
-    <a href="#about">About</a>
-    <a href="#contact">Contact</a>
-  </nav>
+  <main>
+    <!-- Hero -->
+    <section id="home" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">PAN India Logistics Partner</p>
+          <h1>Reliable, on‑time logistics for growing businesses across India.</h1>
+          <p class="hero-subtitle">
+            Flowx Solutions provides end‑to‑end transportation and delivery services with 
+            predictable timelines, clear communication and professional execution.
+          </p>
+          <div class="hero-cta">
+            <a href="https://wa.me/919503247182" target="_blank" class="btn primary">Book a Pickup</a>
+            <a href="#contact" class="btn secondary">Request a Callback</a>
+          </div>
+          <div class="hero-stats">
+            <div>
+              <span class="stat-number">PAN</span>
+              <span class="stat-label">India Coverage</span>
+            </div>
+            <div>
+              <span class="stat-number">24×7</span>
+              <span class="stat-label">Operational Support</span>
+            </div>
+            <div>
+              <span class="stat-number">On‑Time</span>
+              <span class="stat-label">Delivery Focus</span>
+            </div>
+          </div>
+        </div>
+        <div class="hero-panel">
+          <div class="hero-card">
+            <h2>Fast enquiry</h2>
+            <p>Share your shipment details and our team will call you back with the best possible solution.</p>
+            <ul class="hero-list">
+              <li>Last‑mile & secondary distribution</li>
+              <li>Full truck load (FTL) & part load</li>
+              <li>B2B, industrial & project shipments</li>
+            </ul>
+            <a href="#contact" class="hero-link">Send an enquiry →</a>
+          </div>
+        </div>
+      </div>
+    </section>
 
-  <div class="hero">
-    <h2>Reliable. Efficient. Global.</h2>
-    <p>Your trusted logistics & supply chain partner.</p>
-  </div>
+    <!-- Services -->
+    <section id="services" class="section">
+      <div class="container">
+        <h2 class="section-title">Our Core Services</h2>
+        <p class="section-intro">
+          A single partner for movement of goods from plant or warehouse to your customer doorstep, 
+          anywhere in India.
+        </p>
+        <div class="cards-grid">
+          <article class="card">
+            <h3>Last‑Mile Delivery</h3>
+            <p>
+              Door‑to‑door delivery for e‑commerce, retail and industrial clients with focus on 
+              accuracy, POD collection and customer experience.
+            </p>
+          </article>
+          <article class="card">
+            <h3>Full Truck Load (FTL)</h3>
+            <p>
+              Dedicated vehicles for bulk movements with planned routing, transit commitment and 
+              direct deliveries to plants, warehouses and dealers.
+            </p>
+          </article>
+          <article class="card">
+            <h3>Part Load / LTL</h3>
+            <p>
+              Cost‑effective movement for smaller lots with consolidation on key lanes while 
+              maintaining reliability and visibility.
+            </p>
+          </article>
+          <article class="card">
+            <h3>Secondary Distribution</h3>
+            <p>
+              Regular dispatches from central hubs to regional warehouses, distributors, retailers 
+              and project sites.
+            </p>
+          </article>
+          <article class="card">
+            <h3>Project & Site Deliveries</h3>
+            <p>
+              Time‑bound deliveries to construction, infra and industrial project sites with 
+              driver briefing and proper coordination.
+            </p>
+          </article>
+          <article class="card">
+            <h3>Value Added Services</h3>
+            <p>
+              Load planning, vehicle placement, basic documentation support, and daily reporting as 
+              per customer requirement.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
 
-  <section id="services" class="section">
-    <h2>Our Services</h2>
-    <div class="services">
-      <div class="card">
-        <h3>Freight Forwarding</h3>
-        <p>Fast and secure air, sea, and land freight solutions worldwide.</p>
+    <!-- Industries -->
+    <section id="industries" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title">Industries We Serve</h2>
+        <p class="section-intro">
+          Flowx Solutions supports supply chains across multiple sectors with customised routing and 
+          vehicle planning.
+        </p>
+        <div class="pill-grid">
+          <span class="pill">Automobile & Auto Ancillary</span>
+          <span class="pill">Engineering & Industrial Goods</span>
+          <span class="pill">Retail & FMCG</span>
+          <span class="pill">E‑commerce & D2C Brands</span>
+          <span class="pill">Pharma & Healthcare (non‑cold)</span>
+          <span class="pill">Electrical & Electronics</span>
+          <span class="pill">Construction & Infrastructure</span>
+        </div>
       </div>
-      <div class="card">
-        <h3>Warehousing</h3>
-        <p>Modern, secure storage facilities with real-time inventory tracking.</p>
+    </section>
+
+    <!-- Process -->
+    <section class="section">
+      <div class="container process-grid">
+        <div>
+          <h2 class="section-title">How We Work</h2>
+          <p class="section-intro">
+            Simple, transparent process designed around your dispatch plan and customer promise.
+          </p>
+        </div>
+        <ol class="steps">
+          <li>
+            <h3>1. Share requirement</h3>
+            <p>You share lane, load, frequency and special handling instructions with our team.</p>
+          </li>
+          <li>
+            <h3>2. Route & vehicle planning</h3>
+            <p>We plan vehicle type, routing and tentative transit time, keeping safety and cost in mind.</p>
+          </li>
+          <li>
+            <h3>3. Pickup & transit</h3>
+            <p>Vehicle reporting, secure loading and tracked movement till delivery point.</p>
+          </li>
+          <li>
+            <h3>4. Delivery & reporting</h3>
+            <p>On‑time deliveries with POD collection and summary reporting as per agreed format.</p>
+          </li>
+        </ol>
       </div>
-      <div class="card">
-        <h3>Last-Mile Delivery</h3>
-        <p>Reliable delivery ensuring your goods reach their destination on time.</p>
+    </section>
+
+    <!-- Why Us -->
+    <section id="why-us" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title">Why Choose Flowx Solutions</h2>
+        <div class="cards-grid three-col">
+          <article class="card compact">
+            <h3>PAN India Reach</h3>
+            <p>Ability to support lanes connecting major industrial hubs, metros and emerging markets across India.</p>
+          </article>
+          <article class="card compact">
+            <h3>On‑Time Mindset</h3>
+            <p>Strong focus on reporting, follow‑ups and proactive communication when there is any delay risk.</p>
+          </article>
+          <article class="card compact">
+            <h3>Operational Ownership</h3>
+            <p>Hands‑on coordination with loading teams, security, plant and customer for smooth execution.</p>
+          </article>
+          <article class="card compact">
+            <h3>Flexible & Scalable</h3>
+            <p>Capability to ramp up vehicles during peak season and support ad‑hoc or urgent movements.</p>
+          </article>
+          <article class="card compact">
+            <h3>Single Point of Contact</h3>
+            <p>Dedicated relationship owner for quick decisions, faster resolution and clear responsibility.</p>
+          </article>
+          <article class="card compact">
+            <h3>Transparent Pricing</h3>
+            <p>Simple and predictable rate structure with no hidden charges.</p>
+          </article>
+        </div>
       </div>
+    </section>
+
+    <!-- Coverage -->
+    <section class="section">
+      <div class="container coverage">
+        <h2 class="section-title">PAN India Coverage</h2>
+        <p class="section-intro">
+          With a strong base in Maharashtra and access to a trusted fleet network, Flowx Solutions is 
+          positioned to support movements to and from key industrial corridors across India.
+        </p>
+        <ul class="coverage-list">
+          <li>Primary and secondary movements from plants and warehouses</li>
+          <li>Urban, semi‑urban and select rural locations served through partner network</li>
+          <li>Custom routing for new project locations and dealer launches</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section section-alt">
+      <div class="container contact-grid">
+        <div>
+          <h2 class="section-title">Connect with Us</h2>
+          <p class="section-intro">
+            Share your requirement and we will respond with feasible routes, transit time and commercials.
+          </p>
+          <div class="contact-block">
+            <p><strong>Phone:</strong> <a href="tel:+919503247182">+91 95032 47182</a></p>
+            <p><strong>Email:</strong> <a href="mailto:flowx.sales@gmail.com">flowx.sales@gmail.com</a></p>
+            <p><strong>Address:</strong><br>
+              Flat No. 101, Rajyog Regency,<br>
+              Savroli, Khalapur, Khopoli,<br>
+              Raigad, Maharashtra – 410202
+            </p>
+            <p><strong>GSTIN:</strong> 27BNFPR6533N2ZB</p>
+          </div>
+          <div class="contact-cta">
+            <a href="https://wa.me/919503247182" target="_blank" class="btn primary">WhatsApp Now</a>
+          </div>
+        </div>
+
+        <form class="contact-form" onsubmit="return false;">
+          <h3>Business Enquiry</h3>
+          <label>
+            Company name
+            <input type="text" name="company" placeholder="Your company name">
+          </label>
+          <label>
+            Contact person
+            <input type="text" name="name" placeholder="Your name">
+          </label>
+          <label>
+            Email
+            <input type="email" name="email" placeholder="name@company.com">
+          </label>
+          <label>
+            Phone
+            <input type="tel" name="phone" placeholder="+91">
+          </label>
+          <label>
+            Requirement
+            <textarea name="message" rows="4" placeholder="Origin, destination, load type, frequency..."></textarea>
+          </label>
+          <p class="form-note">
+            This is a static form. You can connect it to Google Forms or any CRM later.
+          </p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <p>© 2025 Flowx Solutions. All rights reserved.</p>
+      <p class="footer-meta">PAN India Logistics • Based in Raigad, Maharashtra</p>
     </div>
-  </section>
-
-  <section id="about" class="section">
-    <h2>About Us</h2>
-    <p>We specialize in efficient supply chain management, customized transport solutions, and seamless global distribution.</p>
-  </section>
-
-  <section id="contact" class="section">
-    <h2>Contact Us</h2>
-    <p>Email: info@example.com</p>
-    <p>Phone: +1 555-123-4567</p>
-  </section>
-
-  <footer>
-    <p>© 2025 Logistics Services. All rights reserved.</p>
   </footer>
 </body>
 </html>
