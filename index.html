@@ -8,19 +8,38 @@
 </head>
 <body>
   <header class="site-header">
-    <div class="container nav-bar">
-      <div class="logo-wrap">
-        <img src="logo-flowx.png" alt="Flowx Solutions Logo" class="logo-img">
-      </div>
-      <nav class="nav-links">
-        <a href="#home">Home</a>
-        <a href="#services">Services</a>
-        <a href="#industries">Industries</a>
-        <a href="#why-us">Why Flowx</a>
-        <a href="#contact">Contact</a>
-      </nav>
+  <div class="nav-bar">
+    
+    <!-- Logo -->
+    <a class="logo-wrap" href="#">
+      <img src="logo-flowx.png" alt="FlowX Solutions Logo" class="logo-img">
+    </a>
+
+    <!-- Desktop Menu -->
+    <nav class="nav-links">
+      <a href="#home">Home</a>
+      <a href="#services">Services</a>
+      <a href="#industries">Industries</a>
+      <a href="#why">Why Flowx</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- Mobile Menu Button -->
+    <div class="mobile-menu-btn" onclick="toggleMenu()">
+      ☰
     </div>
-  </header>
+
+  </div>
+
+  <!-- Mobile Menu Sliding Panel -->
+  <div class="mobile-menu" id="mobileMenu">
+      <a href="#home">Home</a>
+      <a href="#services">Services</a>
+      <a href="#industries">Industries</a>
+      <a href="#why">Why Flowx</a>
+      <a href="#contact">Contact</a>
+  </div>
+</header>
 
   <main>
     <!-- Hero -->
