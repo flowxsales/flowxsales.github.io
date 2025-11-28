@@ -31,7 +31,7 @@ header {
 }
 
 .logo-img {
-  height: 70px !important;   /* FINAL FIX */
+  height: 400px !important;   /* FINAL FIX */
   width: auto;
   display: block;
 }
